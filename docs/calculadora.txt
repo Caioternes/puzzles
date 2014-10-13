@@ -1,0 +1,3 @@
+Adicione as operaçãoes de multiplicar e dividir.
+
+Não esqueça de iniciar escrevendo primeiro os testes.
