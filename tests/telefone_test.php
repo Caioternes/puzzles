@@ -3,13 +3,13 @@ require_once "scr/telefone.php";
 
 class TelefoneTest extends PHPUnit_Framework_TestCase
 {
-	public function testSemLetras()
+	public function testSoCom1()
     {
         $telefone = new Telefone("11");
         $this->assertEquals("11", $telefone->numeroTelefone());
     }
 	
-	public function testCom0()
+	public function testSoCom0()
     {
         $telefone = new Telefone("00");
         $this->assertEquals("00", $telefone->numeroTelefone());
